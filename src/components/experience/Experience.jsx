@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Experience.css";
 import {FaReact, FaHtml5, FaGitAlt, FaJava,FaNodeJs} from 'react-icons/fa';
-import {SiJavascript,SiRedux, SiCss3, SiSpringboot, SiCplusplus,SiExpress,SiMysql,SiMongodb} from 'react-icons/si';
+import {SiJavascript,SiRedux, SiCss3, SiSpringboot, SiCplusplus,SiExpress,SiMysql,SiMongodb,SiDocker,SiRedis,SiTailwindcss,SiTypescript} from 'react-icons/si';
 import {MdHttp} from 'react-icons/md';
 
 
@@ -52,6 +52,18 @@ const Experience = () => {
                             <h4>Git</h4>
                         </div>
                     </article>
+                    <article className='experience__details'>
+                        <SiTailwindcss className='experience__details-icon'/>
+                        <div className='experience__details-name'>
+                            <h4>Tailwind CSS</h4>
+                        </div>
+                    </article>
+                    <article className='experience__details'>
+                        <SiTypescript className='experience__details-icon'/>
+                        <div className='experience__details-name'>
+                            <h4>Typescript</h4>
+                        </div>
+                    </article>
                 </div>
             </div>
 
@@ -93,7 +105,19 @@ const Experience = () => {
                         <div className='experience__details-name'>
                             <h4>C / C++</h4>
                         </div>
-                    </article>            
+                    </article>    
+                    <article className='experience__details'>
+                        <SiDocker className='experience__details-icon'/>
+                        <div className='experience__details-name'>
+                            <h4>Docker</h4>
+                        </div>
+                    </article>     
+                    <article className='experience__details'>
+                        <SiRedis className='experience__details-icon'/>
+                        <div className='experience__details-name'>
+                            <h4>Redis</h4>
+                        </div>
+                    </article>      
                 </div>
             </div>
         </div>

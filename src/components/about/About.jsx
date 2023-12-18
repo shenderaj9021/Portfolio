@@ -17,11 +17,7 @@ const About = () => {
             </div>
             <div className="about__content">
                 <div className="about__cards">
-                    <article className='about__card'>
-                        <BiMedal className='about__icon'/>
-                        <h5>Experience</h5>
-                        <small>Frontend Devolper Intern </small>
-                    </article>
+                   
                     <article className='about__card'>
                         <BiUser className='about__icon'/>
                         <h5>Education</h5>
@@ -34,7 +30,7 @@ const About = () => {
                     </article>
                 </div>
                 <p>
-                    I am a Third yeare Computer Engineering major at Pune Institute of computer Technology. I have a strong passion for both front-end
+                    I am a Final year Computer Engineering Student at Pune Institute of computer Technology. I have a strong passion for both front-end
                     and back-end development. I love to learn and I am always looking to learn
                     and experiment with new technologies!
                 </p>

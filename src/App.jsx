@@ -7,12 +7,14 @@ import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Achivements from './components/achivements/Achivements'
+import PrevExperience from './components/prevExperience/PrevExperience';
 const App = () => {
   return (
     <>
         <Header/>
         <Nav/>
         <About/>
+        <PrevExperience />
         <Experience/>
         <Portfolio/>
         <Achivements />

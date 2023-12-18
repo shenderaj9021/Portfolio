@@ -5,11 +5,19 @@ import sih from "../../assests/sih.png"
 import xeniaverse  from "../../assests/xeniaverse.png"
 import mcq from "../../assests/mcq.png"
 import news from "../../assests/news.jpeg"
-
+import onlinejudge from "../../assests/onlinejudge.png"
 
 const projects = [
 { 
     id: 1,
+    image: onlinejudge ,
+    title: 'Online Judge (OJ)',
+    position: '',
+    date: 'june 2023 - Nov 2023',
+    description: 'Led the development of a full-stack online judge platform. Enabled users to submit, run, and evaluate code for diverse programming problems. Implemented Redis pub-sub model to manage concurrency efficiently.Utilized Redis queues for handling multiple user code submissions concurrently. Employed Docker containers for secure and isolated execution of user-submitted code. Ensured platform stability and security by encapsulating code execution within containers'
+},
+{ 
+    id: 2,
     image:spaceship ,
     title: 'Spaceship ',
     position: '',
@@ -17,7 +25,7 @@ const projects = [
     description: 'Created User‑friendly Social media platform for space‑interested people build using MERN Stack. Full responsive UI by Reactjs and Material UI. User authentication and authorization using jwt, and server build using Node and Express js and MongoDB use as the database. Techstack ‑ Nodejs, Expressjs, Mongodb,Reactjs, Redux toolkit, MUI, Jw.'
 },
 { 
-    id: 2,
+    id: 3,
     image: sih,
     title: 'Smart India Hackethon',
     position: "",
@@ -25,7 +33,7 @@ const projects = [
     description: 'Developed a one‑point student and faculty verification portal for colleges under AICTE for ease of validation. The solution considerably reduces manual processing time by making it simple for AICTE to seamlessly integrate and check data from many source points, like UID, PAN, and NPCI. TechStack ‑ ReactJS,Tailwind CSS , Redux    '
 },
 { 
-    id: 3,
+    id: 4,
     image:  xeniaverse,
     title: 'xeniaverse',
     position: '',
@@ -33,7 +41,7 @@ const projects = [
     description: 'Build the website for the PICT CSI event Xeniaverse. The platform recorded a footfall of 3000+ registration. Used ReactJS, Redux, tailwind CSS for the development'
 },
 { 
-    id: 4,
+    id: 5,
     image:  mcq,
     title: 'MCQ Platform',
     position: '',

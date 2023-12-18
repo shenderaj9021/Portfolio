@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../../assests/Raj_Latest_Resume.pdf';
+import Resume from '../../assests/Raj_Shende_Resume.pdf';
 
 const Action = () => {
   return (
